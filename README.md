@@ -1,6 +1,6 @@
-# TaskApp
+# NocacompApp
 
-TaskApp es una aplicación sencilla de tareas construida con React Native y Expo. Esta aplicación permite a los usuarios agregar y listar tareas, así como obtener datos de una fuente remota. También incluye pruebas unitarias utilizando Jest.
+Aplicación sencilla de tareas construida con React Native y Expo. Esta aplicación permite a los usuarios agregar y listar tareas, así como obtener datos de una fuente remota. También incluye pruebas unitarias utilizando Jest.
 
 ## Requisitos Previos
 
