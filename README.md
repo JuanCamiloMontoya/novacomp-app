@@ -16,7 +16,7 @@ Antes de comenzar, asegúrate de tener los siguientes requisitos previos instala
 
    ```bash
    git clone https://github.com/JuanCamiloMontoya/novacomp-app.git
-   cd TaskApp
+   cd novacomp-app
 
 2. Instala las dependencias:
 
