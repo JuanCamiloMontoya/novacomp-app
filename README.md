@@ -15,7 +15,7 @@ Antes de comenzar, asegúrate de tener los siguientes requisitos previos instala
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/TaskApp.git
+   git clone https://github.com/JuanCamiloMontoya/novacomp-app.git
    cd TaskApp
 
 2. Instala las dependencias:
