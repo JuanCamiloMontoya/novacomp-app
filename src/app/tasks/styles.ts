@@ -25,4 +25,18 @@ export const styles = StyleSheet.create({
     paddingVertical: 12,
     paddingHorizontal: 5,
   },
+  headerButtons: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    width: "100%",
+  },
+  leftButton: {
+    justifyContent: "flex-start",
+    width: 30,
+  },
+  centerButton: {
+    flex: 1,
+    alignItems: "center",
+  },
 });

@@ -6,6 +6,7 @@ import {
   Modal,
   TextInput,
   SafeAreaView,
+  Button as RNButton,
 } from "react-native";
 import { useTask } from "./controller";
 import { styles } from "./styles";
@@ -20,12 +21,18 @@ const Tasks = () => {
     hideModal,
     showModal,
     setTaskDescription,
+    goBack,
   } = useTask();
 
   return (
     <SafeAreaView style={styles.container}>
-      <View style={{ alignItems: "center" }}>
-        <Button title="New Task" onPress={showModal} />
+      <View style={styles.headerButtons}>
+        <View style={styles.leftButton}>
+          <RNButton title="<" onPress={goBack} color={"gray"} />
+        </View>
+        <View style={styles.centerButton}>
+          <Button title="New Task" onPress={showModal} />
+        </View>
       </View>
       <FlatList
         data={tasks}
