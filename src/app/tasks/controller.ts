@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AppDispatch, RootState } from "../../store/store";
 import { useDispatch, useSelector } from "react-redux";
 import { tasksActions } from "../../services/tasks/slice";
+import { router } from "expo-router";
 
 export const useTask = () => {
   const [modalVisible, setModalVisible] = useState(false);
@@ -25,6 +26,11 @@ export const useTask = () => {
       setModalVisible(false);
     }
   };
+
+  const goBack = () => {
+    router.back();
+  };
+
   return {
     tasks,
     taskDescription,
@@ -33,5 +39,6 @@ export const useTask = () => {
     showModal,
     hideModal,
     setTaskDescription,
+    goBack,
   };
 };

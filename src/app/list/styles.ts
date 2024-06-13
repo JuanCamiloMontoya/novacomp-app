@@ -20,4 +20,15 @@ export const styles = StyleSheet.create({
     backgroundColor: "#CCC",
     marginRight: 10,
   },
+  headerButtons: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    width: "100%",
+    marginBottom: 10,
+  },
+  leftButton: {
+    marginLeft: 8,
+    width: 30,
+  },
 });
